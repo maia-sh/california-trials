@@ -1,0 +1,6 @@
+{"timestamp": "2022-02-21T22:13:18+0100", "log_lvl": "INFO", "log_msg": "Organization: stanford"}
+{"timestamp": "2022-02-21T22:19:32+0100", "log_lvl": "INFO", "log_msg": "AACT_stanford"}
+{"timestamp": "2022-03-02T18:06:12+0100", "log_lvl": "INFO", "log_msg": "Organization: ucsf|University of California San Francisco"}
+{"timestamp": "2022-03-02T18:07:10+0100", "log_lvl": "INFO", "log_msg": "AACT_ucsf"}
+{"timestamp": "2022-03-03T15:41:21+0100", "log_lvl": "INFO", "log_msg": "Organization: ucsf|University of California San Francisco|University of California__COMMA__ San Francisco"}
+{"timestamp": "2022-03-03T15:42:23+0100", "log_lvl": "INFO", "log_msg": "AACT_ucsf"}
