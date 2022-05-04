@@ -1,0 +1,37 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+
+library(dplyr)
+library(stringr)
+```
+
+A repository of [AACT](https://aact.ctti-clinicaltrials.org/) data for trials affiliated with several Californian universities.
+
+```{r queries, echo = FALSE}
+
+loggit::read_logs(here::here("queries.log")) %>% 
+  filter(str_detect(log_msg, "AACT")) %>% 
+  group_by(log_msg) %>% 
+  slice_tail(n = 1) %>% 
+  ungroup() %>% 
+  summarise(
+    organization = str_remove(log_msg, "AACT_"),
+    query_date = as.Date.character(timestamp)
+  ) %>% 
+  knitr::kable()
+  
+```
+
+Tidied csv's are available in `data --> processed --> {organization}`:
+
+-   `{organization}_studies.csv` includes all trials from AACT affiliated with {organization}
+-   `{organization}_trials.csv` is limited to interventional trials completed in or before 2020 with relevant status ("Completed" , "Terminated" , "Suspended", "Unknown status")
