@@ -4,3 +4,5 @@
 {"timestamp": "2022-03-02T18:07:10+0100", "log_lvl": "INFO", "log_msg": "AACT_ucsf"}
 {"timestamp": "2022-03-03T15:41:21+0100", "log_lvl": "INFO", "log_msg": "Organization: ucsf|University of California San Francisco|University of California__COMMA__ San Francisco"}
 {"timestamp": "2022-03-03T15:42:23+0100", "log_lvl": "INFO", "log_msg": "AACT_ucsf"}
+{"timestamp": "2022-03-09T13:12:51+0100", "log_lvl": "INFO", "log_msg": "Organization: uc davis|University of California__COMMA__ Davis| University of California Davis"}
+{"timestamp": "2022-03-09T13:13:36+0100", "log_lvl": "INFO", "log_msg": "AACT_ucdavis"}
