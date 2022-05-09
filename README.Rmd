@@ -34,4 +34,4 @@ loggit::read_logs(here::here("queries.log")) %>%
 Tidied csv's are available in `data --> processed --> {organization}`:
 
 -   `{organization}_studies.csv` includes all trials from AACT affiliated with {organization}
--   `{organization}_trials.csv` is limited to interventional trials completed in or before 2020 with relevant status ("Completed" , "Terminated" , "Suspended", "Unknown status")
+-   `{organization}_trials.csv` is limited to interventional trials completed in or before 2020 with relevant status: "Completed" , "Terminated" , "Suspended", "Unknown status"

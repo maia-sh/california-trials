@@ -94,4 +94,3 @@ trials <-
   )
 
 write_csv(trials, glue("{dir_processed_org}/{org_short}-trials.csv"))
-

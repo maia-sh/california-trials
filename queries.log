@@ -10,3 +10,6 @@
 {"timestamp": "2022-05-04T18:03:18+0200", "log_lvl": "INFO", "log_msg": "AACT_ucsd"}
 {"timestamp": "2022-05-04T18:05:08+0200", "log_lvl": "INFO", "log_msg": "Organization: ucla|University of California__COMMA__ Los Angeles|University of California Los Angeles"}
 {"timestamp": "2022-05-04T18:06:31+0200", "log_lvl": "INFO", "log_msg": "AACT_ucla"}
+{"timestamp": "2022-05-09T21:46:19+0200", "log_lvl": "INFO", "log_msg": "Organization: uci"}
+{"timestamp": "2022-05-09T21:48:02+0200", "log_lvl": "INFO", "log_msg": "Organization: uci|University of California__COMMA__ Irvine|University of California Irvine"}
+{"timestamp": "2022-05-09T21:48:30+0200", "log_lvl": "INFO", "log_msg": "AACT_uci"}
