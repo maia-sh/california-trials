@@ -11,32 +11,38 @@ library(glue)
 #  Prepare organization ---------------------------------------------------
 # NOTE: This script can be run for a single org at a time, so comment out others
 
-org_short <- "stanford"
-org_names <- org_short
+# org_short <- "stanford"
+# org_names <- org_short
+#
+# org_short <- "ucsf"
+# org_names <- stringr::str_c(org_short,
+#                             "University of California San Francisco",
+#                             "University of California, San Francisco",
+#                             sep = "|")
+#
+# org_short <- "ucdavis"
+# org_names <- stringr::str_c(org_short,
+#                             "uc davis",
+#                             # "University of California, Davis",
+#                             # "University of California Davis",
+#                             sep = "|")
+#
+# org_short <- "ucsd"
+# org_names <- stringr::str_c(org_short,
+#                             "University of California, San Diego",
+#                             "University of California San Diego",
+#                             sep = "|")
+#
+# org_short <- "ucla"
+# org_names <- stringr::str_c(org_short,
+#                             "University of California, Los Angeles",
+#                             "University of California Los Angeles",
+#                             sep = "|")
 
-org_short <- "ucsf"
+org_short <- "uci"
 org_names <- stringr::str_c(org_short,
-                            "University of California San Francisco",
-                            "University of California, San Francisco",
-                            sep = "|")
-
-org_short <- "ucdavis"
-org_names <- stringr::str_c(org_short,
-                            "uc davis",
-                            # "University of California, Davis",
-                            # "University of California Davis",
-                            sep = "|")
-
-org_short <- "ucsd"
-org_names <- stringr::str_c(org_short,
-                            "University of California, San Diego",
-                            "University of California San Diego",
-                            sep = "|")
-
-org_short <- "ucla"
-org_names <- stringr::str_c(org_short,
-                            "University of California, Los Angeles",
-                            "University of California Los Angeles",
+                            "University of California, Irvine",
+                            "University of California Irvine",
                             sep = "|")
 
 # Additional set-up -------------------------------------------------------
@@ -79,7 +85,7 @@ studies <-
     completion_year = lubridate::year(completion_date)
   )
 
-write_csv(studies, path(dir_processed_org, "ucsf-studies.csv"))
+write_csv(studies, glue("{dir_processed_org}/{org_short}-studies.csv"))
 
 
 # Filter for eligible trials ----------------------------------------------
