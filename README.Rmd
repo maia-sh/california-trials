@@ -34,7 +34,7 @@ loggit::read_logs(here::here("queries.log")) %>%
     query_date = as.Date.character(timestamp)
   ) %>% 
   knitr::kable()
-  
+
 ```
 
 Tidied csv's are available in `data --> processed --> {organization}`:

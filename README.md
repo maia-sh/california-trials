@@ -12,6 +12,7 @@ trials affiliated with several Californian universities.
 | ucla         | 2022-05-04 |
 | ucsd         | 2022-05-04 |
 | ucsf         | 2022-03-03 |
+| usc          | 2022-08-15 |
 
 Tidied csv’s are available in `data --> processed --> {organization}`:
 
@@ -54,6 +55,7 @@ registrations had data changed since Chen’s data extraction.
 | ucla       |                      95 |                127 |                188 |
 | ucsd       |                      75 |                103 |                127 |
 | ucsf       |                     133 |                196 |                299 |
+| usc        |                      NA |                 58 |                 81 |
 
 ## References
 
