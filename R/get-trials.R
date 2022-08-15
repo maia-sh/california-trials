@@ -38,12 +38,15 @@ library(glue)
 #                             "University of California, Los Angeles",
 #                             "University of California Los Angeles",
 #                             sep = "|")
+#
+# org_short <- "uci"
+# org_names <- stringr::str_c(org_short,
+#                             "University of California, Irvine",
+#                             "University of California Irvine",
+#                             sep = "|")
 
-org_short <- "uci"
-org_names <- stringr::str_c(org_short,
-                            "University of California, Irvine",
-                            "University of California Irvine",
-                            sep = "|")
+org_short <- "usc"
+org_names <- "University of Southern California"
 
 # Additional set-up -------------------------------------------------------
 
